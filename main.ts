@@ -17,6 +17,14 @@ basic.showLeds(`
     # # # # #
     `)
 basic.pause(200)
+basic.showLeds(`
+    . . . . .
+    . . . . #
+    . . . # .
+    # . # . .
+    . # . . .
+    `)
+basic.pause(200)
 basic.clearScreen()
 basic.forever(function () {
     Moisture = pins.analogReadPin(AnalogPin.P0)
